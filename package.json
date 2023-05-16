@@ -1,0 +1,29 @@
+{
+  "name": "aussiediver_webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@next/font": "13.1.2",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.3",
+    "next": "13.1.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-rater": "^6.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-slick": "^0.29.0",
+    "reactstrap": "^9.1.5",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "prettier": "^2.8.3"
+  }
+}

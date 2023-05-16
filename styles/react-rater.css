@@ -1,0 +1,31 @@
+.react-rater {
+	display: inline-block;
+	line-height: normal;
+}
+.react-rater > * {
+	display: inline-block;
+}
+
+.react-rater-star {
+	cursor: pointer;
+	color: #ffc700;
+	position: relative;
+	font-size: 25px;
+}
+.react-rater-star.will-be-active {
+	color: #ffc700;
+}
+.react-rater-star.is-active {
+	color: #ffc700;
+}
+.react-rater-star.is-active-half:before {
+	color: #ffc700;
+	content: '\2605';
+	position: absolute;
+	left: 0;
+	width: 50%;
+	overflow: hidden;
+}
+.react-rater-star.is-disabled {
+	cursor: default;
+}
